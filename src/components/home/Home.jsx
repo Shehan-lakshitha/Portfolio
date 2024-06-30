@@ -1,6 +1,7 @@
 import React from 'react'
 import "./home.css"
 import Social from './Social';
+import Data from './Data';
 
 const Home = () => {
   return (
@@ -10,6 +11,8 @@ const Home = () => {
                 <Social />
 
                 <div className="home_img"></div>
+
+                <Data />
             </div>
         </div>
     </section>
